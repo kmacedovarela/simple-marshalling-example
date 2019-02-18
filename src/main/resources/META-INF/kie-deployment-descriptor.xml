@@ -14,7 +14,7 @@
     <configurations/>
     <required-roles/>
     <remoteable-classes>
-        <remoteable-class>com.myspace.Person	</remoteable-class>
+        <remoteable-class>com.myspace.Person</remoteable-class>
     </remoteable-classes>
     <limit-serialization-classes>true</limit-serialization-classes>
 </deployment-descriptor>
