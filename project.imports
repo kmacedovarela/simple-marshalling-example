@@ -26,7 +26,7 @@
         <type>java.util.ArrayList</type>
       </import>
       <import>
-        <type>com.myspace.marshalling_sample.Person</type>
+        <type>com.myspace.Person	</type>
       </import>
     </imports>
   </imports>
