@@ -45,5 +45,11 @@ public class Person implements java.io.Serializable {
 		this.age = age;
 		this.name = name;
 	}
+	
+	public String toString(){
+	    return "sex" + this.sex,
+		" age"+ this.age,
+		" name"+ this.name;
+	}
 
 }
