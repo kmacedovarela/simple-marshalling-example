@@ -6,12 +6,44 @@ package com.myspace.marshalling_sample;
 
 public class Person implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Person() {
-    }
+	private java.lang.String sex;
+	private java.lang.Integer age;
+	private java.lang.String name;
 
+	public Person() {
+	}
 
+	public java.lang.String getSex() {
+		return this.sex;
+	}
 
+	public void setSex(java.lang.String sex) {
+		this.sex = sex;
+	}
+
+	public java.lang.Integer getAge() {
+		return this.age;
+	}
+
+	public void setAge(java.lang.Integer age) {
+		this.age = age;
+	}
+
+	public java.lang.String getName() {
+		return this.name;
+	}
+
+	public void setName(java.lang.String name) {
+		this.name = name;
+	}
+
+	public Person(java.lang.String sex, java.lang.Integer age,
+			java.lang.String name) {
+		this.sex = sex;
+		this.age = age;
+		this.name = name;
+	}
 
 }
