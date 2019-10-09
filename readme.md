@@ -8,7 +8,7 @@ Marshalling example
 3. Test the following requests using a user with *kie-server* and *rest-all* roles. 
 
 ## Create a process 
-
+````bash
 POST http://localhost:8080/kie-server/services/rest/server/containers/marshalling-sample/processes/myprocess/instances with JSON:
 { 
 	"person" : { 
@@ -20,9 +20,11 @@ POST http://localhost:8080/kie-server/services/rest/server/containers/marshallin
 	},
 	"randomNumber": 59
 }
-
-You can also use this command (replace the authorization token with a valid token on your environment (you can generate one here [here](https://www.blitter.se/utils/basic-authentication-header-generator/) if you need): 
 ````
+		
+You can also use this command (replace the authorization token with a valid token on your environment (you can generate one here [here](https://www.blitter.se/utils/basic-authentication-header-generator/) if you need): 
+
+````bash
 curl -X POST \
   'http://localhost:8080/kie-server/services/rest/server/containers/marshalling-sample/processes/myprocess/instances?person=' \
   -H 'Accept: application/json' \
