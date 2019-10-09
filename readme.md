@@ -46,7 +46,7 @@ curl -X POST \
 
 The response will be the ID of the new process instance created. The process instance will stay active, waiting on the user task "Task for male". In this situation, you are able to collect the information for example from the task or from the process instance. 
 
-=== Retrieving the variable values from the process instance
+## Retrieving the variable values from the process instance
 
 The process created has an ID which you can use to retrieve the variables by requesting /server/containers/marshalling-sample/processes/instances/[[PROCESS_ID]]/variables
 
